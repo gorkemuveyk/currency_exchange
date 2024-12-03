@@ -1,16 +1,28 @@
-# currency_exchange
+# Currency Converter App
 
-A new Flutter project.
+This is a simple Flutter application that allows you to convert various currencies into Turkish Lira (TRY).
 
-## Getting Started
+### Features:
 
-This project is a starting point for a Flutter application.
+- Convert any currency to Turkish Lira.
+- Simple and user-friendly interface.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed on your system.
+- An API key from [exchangeratesapi.io](https://exchangeratesapi.io).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Update the API Key:**
+
+- Open `lib/homepage.dart`.
+- Find the following line:
+  ```dart
+  final String _apiKey = "YOUR__API__KEY";
+  ```
+- Replace `"YOUR__API__KEY"` with your actual API key from [exchangeratesapi.io](https://exchangeratesapi.io).
+
+### Screenshots:
+
+| 1. SS                                 | 2. SS                                   |
+| ------------------------------------- | --------------------------------------- |
+| ![Product List](/img/Screenshot1.png) | ![Product Detail](/img/Screenshot2.png) |
